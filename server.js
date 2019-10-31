@@ -16,7 +16,7 @@ app.use(
 );
 
 // mongodb 
-mongoose.connect('mongodb://localhost:27017/reactreadinglist', {useNewUrlParser: true}, (err) => {
+mongoose.connect('mongodb://heroku_xs37vxqw:eekgp2jr2n38i5v8j130q5f4n9@ds141248.mlab.com:41248/heroku_xs37vxqw', {useNewUrlParser: true}, (err) => {
   if (err) throw err; 
   console.log('db connected')
 });
