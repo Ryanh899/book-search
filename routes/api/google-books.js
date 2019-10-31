@@ -18,7 +18,7 @@ module.exports = {
                 results.map(item => {
                     BookModel.create({
                         title:  item.title,
-                        authors: item.authors,
+                        authors: item.authors,  
                         description: item.description,
                         images: item.thumbnail,
                         link: item.link

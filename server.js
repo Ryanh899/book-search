@@ -25,10 +25,10 @@ mongoose.connect('mongodb://heroku_xs37vxqw:eekgp2jr2n38i5v8j130q5f4n9@ds141248.
 //middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-// Serve up static assets 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'client/build')));
+
 
 const apiRoutes = require('./routes/api/api-routes'); 
 app.use('/api', apiRoutes); 
