@@ -1,4 +1,17 @@
-# book-search
-- Search for a book by Title, Author, or genre. Save the books you like to our library to view later. 
+# Google Book-Search
+- Search for a book by Title, Author, or genre. Save the books you like to your library to view later. 
 
-- Created with: React, Material UI, Mongoose, MongoDb, React, Node.js, Express.js, Google Books API
+# Getting Started 
+ - Git clone <repo> 
+ - npm install
+ - Configure MongoDB in server.js 
+ 
+
+# Built With
+- React 
+- Material UI
+- Mongoose
+- MongoDb
+- Node.js
+- Express.js 
+- Google Books API
